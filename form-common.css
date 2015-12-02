@@ -1,0 +1,17 @@
+/* form 表单 */
+form input,form select,form textarea{
+    padding: 8px;
+    border: solid 1px #e3e3e3;
+    font-size: 14px;
+    outline: none;
+}
+form input:focus,form textarea:focus,form select:focus{
+    outline: none;
+}
+form input[type="button"],form input[type="submit"]{
+    border: none;
+    background-color: #0000aa;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 6px 10px;
+}
