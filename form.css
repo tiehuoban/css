@@ -1,0 +1,35 @@
+
+.form{
+    width: 600px;
+}
+.rowWrap{
+    position: relative;
+    width: 100%;
+}
+.rowWrap .rowTitle,.rowWrap .rowContent{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.rowWrap .rowTitle{
+    width: 120px;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+.rowWrap .rowTitleStar{
+    color: red;
+}
+.rowWrap .tips{
+    position: absolute;
+    height: 24px;
+    line-height: 24px;
+    left: 0;
+    bottom: 5px;
+}
+.rowWrap .rowContent{
+    width: 400px;
+    padding-bottom: 40px;
+    position: relative;
+}
