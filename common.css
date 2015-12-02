@@ -1,0 +1,103 @@
+
+/* 基础样式 */
+html,body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,pre,input,textarea,img{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+html,p,div,span{
+    font-size: 14px;
+    color: #333;
+    font-family: Tahoma, Helvetica, SimSun, sans-serif;
+}
+img{
+    border: none;
+}
+ul,ol,li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+/* form 表单 */
+form input,form select,form textarea{
+    padding: 8px;
+    border: solid 1px #e3e3e3;
+    font-size: 14px;
+    outline: none;
+}
+form input:focus,form textarea:focus,form select:focus{
+    outline: none;
+}
+form input[type="button"],form input[type="submit"]{
+    border: none;
+    background-color: #0000aa;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 6px 10px;
+}
+
+a:link,a:hover,a:visited,a:active{
+    text-decoration: none;
+}
+a:link{
+    color: #315aaa;
+}
+a:visited{
+    color: #315aaa;
+}
+a:hover{
+    color: #dd0000;
+}
+a:active{
+    color: #dd0000;
+}
+
+h2,h3{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.row{
+    display: block;
+    font-size: 0;
+}
+.col{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    padding: 0;
+}
+.colblock{
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+}
+.link{
+    cursor: pointer;
+    color: #555555;
+}
+.link:hover{
+    color: #dd0000;
+}
+.container{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.summary,.content,.title{
+    line-height: 24px;
+}
+.btn{
+    background-color:#398bfc;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.btn:hover{
+    background-color: #3782f0;
+}
